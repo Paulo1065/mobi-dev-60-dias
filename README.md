@@ -770,3 +770,50 @@ Transformando ideias em soluções através da tecnologia.
 Feito com dedicação, disciplina e muita vontade de evoluir.
 
 🚀 Let's Gooooo!!
+---
+
+# 📅 Diário de Desenvolvimento — BeautyFlow
+
+## 🚀 Evolução de hoje
+
+Hoje dei continuidade ao desenvolvimento do **BeautyFlow**, projeto utilizado para colocar em prática meus estudos de Front-end.
+
+Antes de programar, fiz uma revisão dos principais conceitos estudados e consegui reforçar conhecimentos importantes de HTML e CSS.
+
+## 🧠 Conceitos revisados
+
+✅ `<header>` — cabeçalho da página  
+✅ `<nav>` — área de navegação  
+✅ `<main>` — conteúdo principal  
+✅ `<section>` — divisão do conteúdo em áreas temáticas  
+
+### 🎨 CSS
+
+✅ Flexbox — organização em uma dimensão  
+✅ Grid — organização em linhas e colunas  
+✅ `gap` — espaço entre elementos  
+✅ `padding` — espaço interno  
+✅ `margin` — espaço externo  
+✅ `hover` — estado ativado ao passar o mouse  
+✅ `transform` — transformação visual do elemento  
+✅ `transition` — suavidade entre mudanças  
+✅ Media Queries — adaptação para diferentes tamanhos de tela  
+
+## 💻 Desenvolvimento realizado
+
+Hoje comecei a construção da seção de planos do BeautyFlow.
+
+Estrutura planejada:
+
+- 💙 Plano Básico
+- 🚀 Plano Profissional
+- 👑 Plano Premium
+
+Para organizar os planos utilizei:
+
+```css
+.cards-planos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}

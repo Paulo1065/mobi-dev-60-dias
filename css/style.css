@@ -149,4 +149,22 @@ nav h1 {
         width: 100%;
         margin-bottom: 10px;
     }
+
+    .cards-planos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+
+    }
+
+    .plano{
+        padding: 25px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+        transition: 0.3s;
+    }
+
+    .plano:hover{
+        transform: translateY(-5px);
+    }
 }
