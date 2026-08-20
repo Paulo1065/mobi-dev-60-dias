@@ -817,3 +817,23 @@ Para organizar os planos utilizei:
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
+## Diário de Estudos — 19/08/2026
+
+### Projeto Mobi Systems
+
+Hoje iniciei a primeira versão do site da Mobi Systems.
+
+### Conteúdos praticados
+
+- Estrutura semântica com header, nav, main, section, article e footer.
+- Classes e IDs no HTML.
+- Flexbox no cabeçalho e no menu.
+- CSS Grid nos serviços e planos.
+- Cards, botões, hover e transition.
+- Media Query para responsividade.
+- Link direto para o WhatsApp.
+- Identificação e correção de erros no HTML e CSS.
+
+### Resultado
+
+Foi criada uma landing page responsiva com apresentação, serviços, planos, contato e rodapé.

@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #0b3d2e;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+}
+.hero {
+  min-height: 500px;
+  padding: 80px 20px;
+  text-align: center;
+  background-color: #e8f5f0;
+}
+
+.hero h2 {
+  font-size: 42px;
+  color: #0b3d2e;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: 0 auto 30px;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.botao {
+  display: inline-block;
+  padding: 15px 25px;
+  background-color: #146ef5;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+.servicos {
+  padding: 70px 40px;
+  text-align: center;
+}
+
+.servicos h2 {
+  margin-bottom: 40px;
+  font-size: 32px;
+  color: #0b3d2e;
+}
+
+.grid-servicos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  padding: 30px;
+  background-color: white;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+.planos {
+  padding: 70px 40px;
+  text-align: center;
+  background-color: #f4f7f6;
+}
+
+.planos h2 {
+  margin-bottom: 40px;
+  font-size: 32px;
+  color: #0b3d2e;
+}
+
+.grid-planos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.card-plano {
+  position: relative;
+  padding: 35px 25px;
+  background-color: white;
+  border: 1px solid #dddddd;
+  border-radius: 10px;
+}
+
+.card-plano ul {
+  margin: 25px 0;
+  list-style: none;
+  text-align: left;
+}
+
+.card-plano li {
+  margin-bottom: 12px;
+}
+
+.preco {
+  margin-top: 15px;
+  color: #146ef5;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.destaque {
+  border: 2px solid #146ef5;
+  transform: scale(1.03);
+}
+
+.selo {
+  position: absolute;
+  top: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 7px 15px;
+  background-color: #146ef5;
+  color: white;
+  border-radius: 20px;
+}
+.contato {
+  padding: 70px 20px;
+  text-align: center;
+  background-color: #0b3d2e;
+  color: white;
+}
+
+.contato h2 {
+  margin-bottom: 15px;
+  font-size: 32px;
+}
+
+.contato p {
+  margin-bottom: 30px;
+}
+
+.botao-whatsapp {
+  display: inline-block;
+  padding: 15px 25px;
+  background-color: #25d366;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.rodape {
+  padding: 20px;
+  text-align: center;
+  background-color: #06271e;
+  color: white;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.menu a,
+.botao,
+.botao-whatsapp {
+  transition: 0.3s;
+}
+
+.menu a:hover {
+  color: #25d366;
+}
+
+.botao:hover,
+.botao-whatsapp:hover {
+  transform: translateY(-3px);
+  opacity: 0.9;
+}
+@media (max-width: 768px) {
+  .cabecalho {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  .grid-planos {
+  grid-template-columns: 1fr;
+}
+
+.destaque {
+  transform: none;
+}
+
+  .menu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero h2 {
+    font-size: 32px;
+  }
+
+  .grid-servicos {
+    grid-template-columns: 1fr;
+  }
+
+  .servicos {
+    padding: 50px 20px;
+  }
+}
