@@ -1,4 +1,4 @@
-# 🚀 DIO Estudos
+# 🚀 Mobi Estudos
 
 Bem-vindo ao meu repositório de estudos.
 
